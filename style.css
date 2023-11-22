@@ -1,0 +1,23 @@
+@charset UTF-8;
+
+body {
+    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif, Verdana, "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+    background-color: #f5f3e9;
+}
+
+/*ヘッダーまだ未完成*/
+.list_sns {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 9.8039215686%;
+    max-width: 100px;
+    
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
