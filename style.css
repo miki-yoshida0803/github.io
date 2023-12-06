@@ -1,508 +1,568 @@
 @charset "UTF-8";
-
 html {
-    font-size: 100%;
+	font-size: 100%;
 }
-
 body {
-    font-family: "Yu Gothic Medium","游ゴシック Medium",YuGothic,"游ゴシック体","ヒラギノ角ゴ Pro M3",sans-serif;
-    background-color: #f5f3e9;
-    color: #333;
-    line-height: 1.4;
-
+	font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro M3", sans-serif;
+	background-color: #f5f3e9;
+	color: #333;
+	line-height: 1.4;
 }
-
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
-
 img {
-    max-width: 100%;
+	max-width: 100%;
 }
-
-
 /*ヘッダーまだ未完成*/
 .fix-heading-area {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
 }
-
 .list_sns {
-    display: flex;
-    justify-content: space-between;
-    max-width: 100px;
-    margin-right: 100px;
+	display: flex;
+	justify-content: space-between;
+	max-width: 100px;
+	margin-right: 100px;
 }
-
 .wrapper {
-    max-width: 1440px;
+	max-width: 1440px;
 }
-
 .list_sns li {
-    margin-left: 60px;
-    margin-top: 20px;
+	margin-left: 60px;
+	margin-top: 20px;
 }
-
 /*アイコンサイズ*/
-
-.fa-instagram,
-.fa-tiktok {
-    font-size: 2.0rem;
+.fa-instagram, .fa-tiktok {
+	font-size: 2.0rem;
 }
-
-
 /*ロゴ*/
-
 h1 {
-    margin: 0 30px;
-    position: absolute;
-    top: 10px;
-    left: 15px;
+	margin: 0 30px;
+	position: absolute;
+	top: 10px;
+	left: 15px;
 }
-
-
-
 .heading-logo {
-    font-size: 16px;
+	font-size: 16px;
 }
-
 .sp {
-    font-size: 16px;
+	font-size: 16px;
 }
-
 .global-header {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 20px;
 }
-
 .square {
 	width: 150px;
 	height: 165px;
 	background: #fff;
-    position: relative;
+	position: relative;
 }
-
-
 /*メニュー*/
-
 .nav_area {
-    margin-left: 90px;
-    margin-right: 10px;
-    font-size: 18px;
+	margin-left: 90px;
+	margin-right: 10px;
+	font-size: 18px;
 }
-
 .nav_area li {
-    padding-top: 30px;
-    text-align: center;
-
+	padding-top: 30px;
+	text-align: center;
 }
-
 .nav_area a {
-    color: #333;
-
+	color: #333;
 }
-
-.nav_area a:hover{
-    color: #0090aa;
+.nav_area a:hover {
+	color: #0090aa;
 }
-
 .list2 {
-    margin: 16px ;
-    padding-left: 30px;
+	margin: 16px;
+	padding-left: 30px;
 }
-
 /*top画像*/
-
 .fv-slider-area {
-    text-align: center;
-    position: relative;
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    min-width: 573px;
+	text-align: center;
+	position: relative;
+	max-width: 100%;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	min-width: 573px;
 }
-
 .top_message {
-    position: absolute;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #fff;
-    font-weight: bold;
-    font-size: 64px;
-    top:27%;
-    left:33%;
-    font-family: "Rounded Mplus 1c";
+	position: absolute;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #fff;
+	font-weight: bold;
+	font-size: 64px;
+	top: 27%;
+	left: 33%;
+	font-family: "Rounded Mplus 1c";
 }
-
-
-
 /*見出し*/
-
 .head_home {
-    text-align: center;
-    margin-bottom: 72px;
+	text-align: center;
+	margin-bottom: 72px;
 }
-
 .head_home h2 {
-    margin-top: 150px;
-    font-size: 34px;
-    font-weight: bold;
-
+	margin-top: 150px;
+	font-size: 34px;
+	font-weight: bold;
 }
-
 .head_home h3 {
-    text-align: center;
-    font-size: 30px;
+	text-align: center;
+	font-size: 30px;
 }
-
 .eg {
-    font-size: 24px;
+	font-size: 24px;
 }
-
-
-
 .decoration {
-    font-size: 24px;
-    color: #dcb769;
-    
+	font-size: 24px;
+	color: #dcb769;
 }
-
-
 /*アイディールとは*/
-
 .box {
-    margin-top: 62px;
-    display: flex;
-    max-width: 1140px;
-    margin: auto;
-    
+	margin-top: 62px;
+	display: flex;
+	max-width: 1140px;
+	margin: auto;
 }
-
 .ttl2 {
-    width: 550px;
-    margin-top: 10px;
-    margin-right: 40px;
-    margin-left: 60px;
-    display: inline-block;
-    font-size: 26px;
-    padding-bottom: 20px;
-    font-weight: bold;
+	width: 550px;
+	margin-top: 10px;
+	margin-right: 40px;
+	margin-left: 60px;
+	display: inline-block;
+	font-size: 26px;
+	padding-bottom: 20px;
+	font-weight: bold;
 }
-
 .text_home {
-    width: 538px;
-    margin-right: 40px;
-    text-align: left;
-    line-height: 1.6;
-    width: 100%;
-    font-size: 17px;
+	width: 538px;
+	margin-right: 40px;
+	text-align: left;
+	line-height: 1.6;
+	width: 100%;
+	font-size: 17px;
 }
-
 .description {
-    padding-left: 60px;
+	padding-left: 60px;
 }
-
 .box_img {
-    margin-left: 20px;
-    margin: auto;
+	margin-left: 20px;
+	margin: auto;
 }
-
-.box_img,
-.box_img2,
-.box_img3 {
-    width: 100%;
-    height: 100%;
+.box_img, .box_img2, .box_img3 {
+	width: 100%;
+	height: 100%;
 }
-
 /* 特徴*/
-
 .area_home_feature {
-    display: flex;
-    justify-content: center;
-    margin-top: 98px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 98px;
 }
-
 h3 {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
 }
-
 span {
-    color:#dcb769;
-    font-size: 24px;
+	color: #dcb769;
+	font-size: 24px;
 }
-
 .body_home {
-    line-height: 1.5;
-    margin-top: 20px;
+	line-height: 1.5;
+	margin-top: 20px;
 }
-
 .sub_head_home {
-    margin-right:60px;
-    margin-left: 120px;
+	margin-right: 60px;
+	margin-left: 120px;
 }
-
 /* 企業理念 */
-
 .area_home_philosophy {
-    margin-top: 90px;
+	margin-top: 90px;
 }
-
 .head_philosophy {
-    margin-top: 54px;
-    text-align: center;
+	margin-top: 54px;
+	text-align: center;
 }
-
 .head_philosophy h3 {
-    font-size: 30px;
+	font-size: 30px;
 }
-
-
 .eg2 {
-    font-size: 18px;
+	font-size: 18px;
 }
-
 .decoration2 {
-    font-size: 16px;
-    color: #dcb769;
+	font-size: 16px;
+	color: #dcb769;
 }
-
 .ttl3 {
-    font-size: 24px;
-    font-weight: bold;
-    padding-bottom: 20px;
-    padding-left: 80px;
-    padding-top: 20px;
+	font-size: 24px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	padding-left: 80px;
+	padding-top: 20px;
 }
-
 .description2 {
-    padding-left: 80px;
-    font-size: 17px;
-    width: 645px;
-    line-height: 1.7;
+	padding-left: 80px;
+	font-size: 17px;
+	width: 645px;
+	line-height: 1.7;
 }
-
 .box2 {
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    max-width: 1238px;
-    height: 630px;
-    margin: 0 auto;
-    background-color: #fff;
-    border-radius: 20px;
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+	max-width: 1238px;
+	height: 630px;
+	margin: 0 auto;
+	background-color: #fff;
+	border-radius: 20px;
 }
-
 .box_img2 {
-    margin-top: 120px;
- 
+	margin-top: 120px;
 }
-
 /*子供の笑顔が*/
-
 .area_home_thought {
-    margin-top: 104px;
+	margin-top: 104px;
 }
-
 .box_img3 {
-    text-align: center;
+	text-align: center;
 }
-
 .body_thought {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
-
 .head_thought h3 {
-    padding:0 20px;
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
-    line-height: 2.3;
-    display: inline-block;
-    margin-top: 40px;
-    position: relative;
-
+	padding: 0 20px;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+	line-height: 2.3;
+	display: inline-block;
+	margin-top: 40px;
+	position: relative;
 }
-
 .head_thought h3::before {
-    content:"";
-    display:inline-block;
-    width:3px;
-    height:60px;
-    background-color:#ab8a4c;
-    position:absolute;
-    top:-2px;
-    left:-5px;
+	content: "";
+	display: inline-block;
+	width: 3px;
+	height: 60px;
+	background-color: #ab8a4c;
+	position: absolute;
+	top: -2px;
+	left: -5px;
 }
-
-
 .head_thought h3::after {
-    
-    content:"";
-    display:inline-block;
-    width:3px;
-    height:60px;
-    background-color:#ab8a4c;
-    position:absolute;
-    top:160px;
-    right:-5px;
- }
-
-
+	content: "";
+	display: inline-block;
+	width: 3px;
+	height: 60px;
+	background-color: #ab8a4c;
+	position: absolute;
+	top: 160px;
+	right: -5px;
+}
 .text_thought {
-    display: inline-block;
-    margin-top: 40px;
-    margin-left: 60px;
-    width: 500px;
-    font-size: 17px;
-    line-height: 1.7;
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 60px;
+	width: 500px;
+	font-size: 17px;
+	line-height: 1.7;
 }
-
 /*会社概要*/
-
-
 .area_home_profile {
-    margin-top: 90px;
-    align-items: center;
+	margin-top: 90px;
+	align-items: center;
 }
-
 .head_profile {
-    display: inline-block;
-    align-items: center;
+	display: inline-block;
+	align-items: center;
 }
-
 .head_profile2 {
-    text-align: center;
-    align-items: center;
-    width: 48%;
+	text-align: center;
+	align-items: center;
+	width: 48%;
 }
-
 .head_profile h3 {
-    margin-top: 100px;
-    font-size: 30px;
-    
+	margin-top: 100px;
+	font-size: 30px;
 }
-
-
 .eg2 {
-    font-size: 18px;
+	font-size: 18px;
 }
-
 .decoration2 {
-    font-size: 16px;
-    color: #dcb769;
+	font-size: 16px;
+	color: #dcb769;
 }
-
 .ttl4 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 20px;
-
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 20px;
 }
-
 .box3 {
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    height: 630px;
-    margin: 0 auto;
-    background-color: #fff;
-    margin:0 -200%;
-    padding:0 200%;
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+	height: 630px;
+	margin: 0 auto;
+	background-color: #fff;
+	margin: 0 -200%;
+	padding: 0 200%;
 }
-
 /*背景の端固定*/
-
 .body_inside {
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
-
-
 .profile_list {
-    font-size: 18px;
-    width: 460px;
-    padding-top: 20px;
-    line-height: 2.0;
+	font-size: 18px;
+	width: 460px;
+	padding-top: 20px;
+	line-height: 2.0;
 }
-
 .profile_list dl {
-    display: flex;
-
+	display: flex;
 }
-
 .profile_list dt {
-    padding-right: 30px;
+	padding-right: 30px;
 }
-
-
 .img3 {
-    display: block;
-    margin-top: 80px;
-    width:36%;
+	display: block;
+	margin-top: 80px;
+	width: 36%;
 }
-
 /*フッター*/
-
 footer {
-    background-color: #ab8a4c;
+	background-color: #ab8a4c;
 }
-
 .footer_main {
-    margin-left: 200px;
-    padding-top: 20px;
+	margin-left: 200px;
+	padding-top: 20px;
 }
-
 .footer_list {
-    display: flex;
-    justify-content: flex-start;
+	display: flex;
+	justify-content: flex-start;
 }
-
 .footer_logo {
-    margin-top: 30px;
+	margin-top: 30px;
 }
-
 .footer_logo p {
-    font-size: 18px;
-    color: #fff;
+	font-size: 18px;
+	color: #fff;
 }
-.footer_insta,
-.footer_tik {
-    margin-top:60px;
-    margin-right: 30px;
-    margin-left: 30px;
+.footer_insta, .footer_tik {
+	margin-top: 60px;
+	margin-right: 30px;
+	margin-left: 30px;
 }
-
 .footer_insta {
-    margin-left: 90px;
+	margin-left: 90px;
 }
-
 .footer_nav_area {
-    display: flex;
-    font-size: 18px;
-    margin-left: 150px;
-    margin-top: 10px;
+	display: flex;
+	font-size: 18px;
+	margin-left: 150px;
+	margin-top: 10px;
 }
-
 .footer_nav_area a {
-    color: #fff;
+	color: #fff;
 }
-
 .footer_nav_area a:hover {
-    color: #0090aa;
+	color: #0090aa;
 }
-
 .copylight {
-    color: #fff;
-    text-align: center;
-    align-items: flex-end;
-    letter-spacing: 0.12em;
-    padding-top: 100px;
+	color: #fff;
+	text-align: center;
+	align-items: flex-end;
+	letter-spacing: 0.12em;
+	padding-top: 100px;
 }
+/*---------------------------------
+ ここから修正
+-----------------------------------*/
+.global-header {
+	width: 20%;
+	display: block;
+	box-sizing: border-box;
+	padding: 0 20px;
+}
+.square {
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	height: auto;
+	padding: 10px 0;
+}
+.heading-logo {
+	display: block;
+	color: #333;
+}
+.square .sp {
+	color: #333;
+}
+.fv-area {
+	width: 1400px;
+	margin: 30px auto 0;
+	display: flex;
+	justify-content: space-between;
+}
+.nav_area {
+	margin: 0;
+}
+.nav_area li {
+	padding: 0;
+	margin: 40px 0;
+}
+.box {
+	max-width: 1000px;
+	padding: 0 20px;
+}
+.ttl2 {
+	width: 550px;
+	margin: 0;
+}
+.description {
+	padding: 0;
+}
+.container {
+	max-width: 1240px;
+	margin: 0 auto;
+}
+.sub_head_home {
+	margin: 0;
+	max-width: 434px;
+}
+/*---------------------------------
+ モバイル メディアクエリ
+-----------------------------------*/
+@media only screen and (max-width:798px) {
+	.global-header {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		margin: 0;
+	}
+	.wrapper {
+		width: 100%;
+		margin: 0 0 0 -60px;
+	}
+	.square {
+		width: 100px;
+		display: flex;
+		align-items: center;
+		padding: 0;
+		background: none;
+	}
+	.heading-logo {
+		display: none;
+	}
+	.square .sp {
+		padding: 0 0 0 20px;
+	}
+	.fv-slider-area {
+		min-width: auto;
+	}
+	.top_message {
+		font-size: 30px;
+		width: 100%;
+		left: auto;
+		text-align: center;
+	}
+	.fv-area {
+		width: 100%;
+	}
+	.list_sns li {
+		margin: 20px 10px 0;
+	}
+	.list_sns {
+		margin: 0 10px 0 0;
+	}
+	/*============
+nav
+=============*/
+	.nav_area {
+		display: block;
+		position: fixed;
+		top: 0;
+		left: -300px;
+		bottom: 0;
+		width: 230px;
+		background: #ffffff;
+		overflow-x: hidden;
+		overflow-y: auto;
+		-webkit-overflow-scrolling: touch;
+		transition: all .5s;
+		z-index: 3;
+		opacity: 0;
+	}
+	.open .nav_area {
+		left: 0;
+		opacity: 1;
+		display: block;
+	}
+	.toggle_btn {
+		display: block;
+		position: absolute;
+		top: 20px;
+		right: 30px;
+		width: 30px;
+		height: 30px;
+		transition: all .5s;
+		cursor: pointer;
+		z-index: 3;
+	}
+	.toggle_btn span {
+		display: block;
+		position: absolute;
+		left: 0;
+		width: 30px;
+		height: 2px;
+		background-color: #093290;
+		border-radius: 4px;
+		transition: all .5s;
+	}
+	.toggle_btn span:nth-child(1) {
+		top: 4px;
+	}
+	.toggle_btn span:nth-child(2) {
+		top: 14px;
+	}
+	.toggle_btn span:nth-child(3) {
+		bottom: 4px;
+	}
+	.open .toggle_btn span {
+		background-color: #fff;
+	}
+	.open .toggle_btn span:nth-child(1) {
+		-webkit-transform: translateY(10px) rotate(-315deg);
+		transform: translateY(10px) rotate(-315deg);
+	}
+	.open .toggle_btn span:nth-child(2) {
+		opacity: 0;
+	}
+	.open .toggle_btn span:nth-child(3) {
+		-webkit-transform: translateY(-10px) rotate(315deg);
+		transform: translateY(-10px) rotate(315deg);
+	}
+	#mask {
+		display: none;
+		transition: all .5s;
+	}
+	.open #mask {
+		display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #000;
+		opacity: .8;
+		z-index: 2;
+		cursor: pointer;
+	}
 
-
-/* モバイル */
+}
