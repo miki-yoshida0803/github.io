@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="ja">
-<head>
+<html lang="ja"><head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="オーガニック食品卸しのサイト">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><!-- ★-->
     <title>Ideal</title>
+	  <meta name="description" content="オーガニック食品卸しのサイト"><!-- ★-->
 
-    <link rel="stylesheet" type="text/css" href="style.cssreset.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="reset.min.css"><!-- ★同フォルダにある場合のリンク-->
+    <link rel="stylesheet" type="text/css" href="style.css"><!-- ★同フォルダにある場合のリンク-->
 
     <!-- slick.cssを読み込む -->
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
@@ -47,20 +47,36 @@
 <main class="contents">
   <section class="fv-area">
     <header class="global-header">
+
+		 <h1 class="square">
+       <a href="#"><img src="images/logo.png" alt="ロゴマーク"></a>
+        <span class="heading-logo">アイディール</span><!--ルールとしてはｈタグにｐタグはいれてはいけません-->
+        <span class="sp">Ideal</span>
+      </h1>
+			<div class="nav">
+					<!--sp用ハンバーガーMENU-->
+   <div class="toggle_btn">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
       <ul class="nav_area">
-        <li class="list">
+        <!--li class="list">　　　//h1はリストからだしましょう
           <h1 class="square">
             <a href="#"><img src="images/logo.png" alt="ロゴマーク"></a>
            <p class="heading-logo">アイディール</p>
               <p class="sp">Ideal</p>
           </h1>
-        </li>
+        </li-->
         <li class="list2"><a href="#">アイディールとは</a></li>
         <li class="list2"><a href="#">商品紹介</a></li>
         <li class="list2"><a href="#">生産者紹介</a></li>
         <li class="list2"><a href="#">お問い合わせ</a></li>
       </ul>
-
+			<div id="mask"></div>
+			</div>
+    </header><!--ヘッダ要素はここまでで-->
+		
       <div class="fv-slider-area slider-area">
         <img src="images/top.jpg" alt="子供の写真">
       </div>
@@ -68,7 +84,7 @@
         地球と人の、<br>
         健康の為に。
       </p>
-    </header>
+
   </section>
 
 <!--アイディールとは-->
@@ -103,7 +119,7 @@
 
 
 <!--特徴-->
-<section class="area_home_feature">
+<section class="area_home_feature box">
     <div class="sub_head_home">
       <img src="images/family.jpg" alt="家族の写真">
        <p><h3><span>・</span>生産者がわかるということ<span>・</span></h3></p>
@@ -291,5 +307,10 @@
   </div>
 </footer>
 </div>
+
+<!--js-->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="nav.js"></script>
 </body>
 </html>
+
