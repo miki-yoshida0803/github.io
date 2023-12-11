@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja"><head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1"><!-- ★-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Ideal</title>
-	  <meta name="description" content="オーガニック食品卸しのサイト"><!-- ★-->
+    <meta name="description" content="オーガニック食品卸しのサイト">
 
-    <link rel="stylesheet" type="text/css" href="reset.min.css"><!-- ★同フォルダにある場合のリンク-->
-    <link rel="stylesheet" type="text/css" href="style.css"><!-- ★同フォルダにある場合のリンク-->
+    <link rel="stylesheet" type="text/css" href="reset.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- slick.cssを読み込む -->
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
@@ -48,35 +48,29 @@
   <section class="fv-area">
     <header class="global-header">
 
-		 <h1 class="square">
-       <a href="#"><img src="images/logo.png" alt="ロゴマーク"></a>
-        <span class="heading-logo">アイディール</span><!--ルールとしてはｈタグにｐタグはいれてはいけません-->
-        <span class="sp">Ideal</span>
-      </h1>
-			<div class="nav">
-					<!--sp用ハンバーガーMENU-->
-   <div class="toggle_btn">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-      <ul class="nav_area">
-        <!--li class="list">　　　//h1はリストからだしましょう
           <h1 class="square">
             <a href="#"><img src="images/logo.png" alt="ロゴマーク"></a>
-           <p class="heading-logo">アイディール</p>
-              <p class="sp">Ideal</p>
+           <span class="heading-logo">アイディール</span>
+              <span class="sp">Ideal</span>
           </h1>
-        </li-->
+          <div class="nav">
+            <!--sp用ハンバーガーMENU-->
+     <div class="toggle_btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+        
+        <ul class="nav_area">
         <li class="list2"><a href="#">アイディールとは</a></li>
-        <li class="list2"><a href="#">商品紹介</a></li>
-        <li class="list2"><a href="#">生産者紹介</a></li>
-        <li class="list2"><a href="#">お問い合わせ</a></li>
+        <li class="list2"><a href="../product.html">商品紹介</a></li>
+        <li class="list2"><a href="../producer.html">生産者紹介</a></li>
+        <li class="list2"><a href="../contact.html">お問い合わせ</a></li>
       </ul>
 			<div id="mask"></div>
 			</div>
-    </header><!--ヘッダ要素はここまでで-->
-		
+    </header>
+
       <div class="fv-slider-area slider-area">
         <img src="images/top.jpg" alt="子供の写真">
       </div>
@@ -84,7 +78,7 @@
         地球と人の、<br>
         健康の為に。
       </p>
-
+   
   </section>
 
 <!--アイディールとは-->
@@ -119,10 +113,12 @@
 
 
 <!--特徴-->
-<section class="area_home_feature box">
+<section class="area_home_feature">
     <div class="sub_head_home">
+      <div class="sub_head_img">
       <img src="images/family.jpg" alt="家族の写真">
        <p><h3><span>・</span>生産者がわかるということ<span>・</span></h3></p>
+      </div>
     
       <div class="body_home">
         <p>アイディールは、おいしく新鮮な食材を提供したいと考え、
@@ -135,8 +131,10 @@
     </div>
 
   <div class="sub_head_home">
+    <div class="sub_head_img">
     <img src="images/vegetables.jpg" alt="野菜の写真">
       <p><h3><span>・</span>旬の食材をお届け<span>・</span></h3></p>
+    </div>
   
     <div class="body_home">
       <p>季節のもの、旬のものを食べる、それが「旬の食材のチカラ」
@@ -299,18 +297,19 @@
     </div>
   <ul class="footer_nav_area">
     <li class="list2"><a href="#">アイディールとは</a></li>
-    <li class="list2"><a href="#">商品紹介</a></li>
-    <li class="list2"><a href="#">生産者紹介</a></li>
-    <li class="list2"><a href="#">お問い合わせ</a></li>
+    <li class="list2"><a href="../product.html">商品紹介</a></li>
+    <li class="list2"><a href="../producer.html">生産者紹介</a></li>
+    <li class="list2"><a href="../contact.html">お問い合わせ</a></li>
   </ul>
     <p class="copylight">Copyright 2023 Ideal inc.</p>
   </div>
 </footer>
 </div>
 
+
 <!--js-->
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-	<script src="nav.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="nav.js"></script>
 </body>
 </html>
 
