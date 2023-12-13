@@ -1373,6 +1373,14 @@ margin: 10% 0 5%;
 	padding: 0 6% 5% 6%;
 }
 
+.footer_main,
+.footer_nav_area {
+    display: none;
+}
+
+.copylight {
+    padding: 20px;
+}
 
 /*------生産者 モバイル-----------------------------*/
 
@@ -1455,6 +1463,14 @@ margin: 0 10%;
 	padding-bottom: 0px;
 }
 
+.footer_main,
+.footer_nav_area {
+    display: none;
+}
+
+.copylight {
+    padding: 20px;
+}
 
 /*-------------お問い合わせ　モバイル-------------*/
 
@@ -1505,7 +1521,14 @@ input[type="email"]
 
 }
 
+.footer_main,
+.footer_nav_area {
+    display: none;
+}
 
+.copylight {
+    padding: 20px;
+}
 
 
 }
